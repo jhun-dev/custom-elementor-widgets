@@ -1,0 +1,72 @@
+.elementor-widget-lnp-testimonial {
+  width: 100%;
+}
+
+.lnp-testimonial * {
+  margin: 0;
+}
+
+.lnp-testimonial .lt-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.lnp-testimonial .lt-meta {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lnp-testimonial .lt-meta-avatar {
+  width: 32px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.lnp-testimonial .lt-meta-author-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* GRID */
+.lnp-testimonial.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* SLIDER */
+.lnp-testimonial.slider .slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+}
+
+.lnp-testimonial.slider .slider-button-prev {
+  left: 20px;
+}
+
+.lnp-testimonial.slider .slider-button-next {
+  right: 20px;
+}
+
+.lnp-testimonial.slider .slider-arrow i {
+  font-size: 32px;
+}
+
+.lnp-testimonial.slider .slider-arrow svg {
+  width: auto;
+  height: 32px;
+}
